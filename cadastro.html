@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Cursos Online para Idosos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Cursos</span> Online para Idosos</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li class="current"><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="area-do-curso.html">Área do Curso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="register-form">
+            <h2>Cadastro</h2>
+            <form>
+                <div>
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="confirm-password">Confirme a Senha:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div>
+                    <label for="birth-date">Data de Nascimento:</label>
+                    <input type="date" id="birth-date" name="birth-date" required>
+                </div>
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="login.html">Faça login aqui</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cursos Online para Idosos. Todos os direitos reservados.</p>
+    </footer>
+	<script src="validacao-cadastro.js"></script>
+</body>
+</html>
